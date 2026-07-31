@@ -1,0 +1,11 @@
+# robots.txt for S.Alfa MKT (https://studioalfamkt.online)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*
+
+# Host
+Host: https://studioalfamkt.online
+
+# Sitemap Location
+Sitemap: https://studioalfamkt.online/sitemap.xml
