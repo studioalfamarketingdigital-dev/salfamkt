@@ -1,0 +1,21 @@
+{
+  "name": "S.Alfa MKT - Agência de Marketing 360°",
+  "short_name": "S.Alfa MKT",
+  "description": "Agência de Marketing e Publicidade 360° Full-Service em Luziânia-GO e Brasília-DF.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#E50914",
+  "icons": [
+    {
+      "src": "https://storage.googleapis.com/gpt-engineer-file-uploads/QmDffQYDf5f50wS0bYKvgrbqvkG2/uploads/1771783983871-IMG_5249.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://storage.googleapis.com/gpt-engineer-file-uploads/QmDffQYDf5f50wS0bYKvgrbqvkG2/uploads/1771783983871-IMG_5249.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
