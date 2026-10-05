@@ -43,7 +43,7 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Gestão de tráfego pago, publicidade online e offline, 
+            Gestão de tráfego pago, publicidade online e offline, nacional e internacional, 
             produção audiovisual e estratégias de vendas que realmente 
             funcionam. Multiplique o faturamento da sua empresa.
           </p>
@@ -71,7 +71,7 @@ const Hero = () => {
           {/* Stats Preview */}
           <div className="flex flex-wrap gap-8 mt-12 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <div>
-              <p className="text-3xl md:text-4xl font-black text-primary">+R$1M</p>
+              <p className="text-3xl md:text-4xl font-black text-primary">+R$10M</p>
               <p className="text-sm text-muted-foreground">em vendas geradas</p>
             </div>
             <div>
@@ -79,7 +79,7 @@ const Hero = () => {
               <p className="text-sm text-muted-foreground">anos de mercado</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-black text-foreground">20+</p>
+              <p className="text-3xl md:text-4xl font-black text-foreground">27+</p>
               <p className="text-sm text-muted-foreground">parceiros colaboradores</p>
             </div>
           </div>
