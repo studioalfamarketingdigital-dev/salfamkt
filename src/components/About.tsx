@@ -32,6 +32,7 @@ const About = () => {
               Não somos só uma agência — somos parceiros estratégicos focados em 
               resultados reais para o seu negócio.
             </p>
+            <p className="text-primary font-extrabold text-xl md:text-2xl mb-5">Mais de R$ 10 milhões em faturamento gerado para nossos clientes.</p>
             <p className="text-muted-foreground mb-8">
               Nossa metodologia une estratégia, criatividade e tecnologia para 
               estruturar seu marketing e transformar visitantes em clientes fiéis.
