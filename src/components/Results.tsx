@@ -4,7 +4,7 @@ const stats = [
   {
     icon: TrendingUp,
     value: "+R$10 Milhões",
-    label: "Em vendas geradas para nossos clientes",
+    label: "Em faturamento gerado para nossos clientes",
   },
   {
     icon: Users,
