@@ -72,7 +72,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-8 mt-12 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <div>
               <p className="text-3xl md:text-4xl font-black text-primary">+R$10M</p>
-              <p className="text-sm text-muted-foreground">em vendas geradas</p>
+              <p className="text-sm text-muted-foreground">em faturamento gerado para nossos clientes</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-black text-foreground">7+</p>
