@@ -19,8 +19,8 @@ const Header = () => {
     { href: "/#inicio", label: "Início" },
     { href: "/#servicos", label: "Serviços" },
     { href: "/#resultados", label: "Resultados" },
-    { href: "/#sobre", label: "Sobre" },
     { href: "/blog", label: "Blog" },
+    { href: "/#sobre", label: "Sobre" },
     { href: "/#contato", label: "Contato" },
   ];
 
@@ -41,7 +41,7 @@ const Header = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-300"
+              className={`text-sm transition-colors duration-300 hover:text-primary ${link.href === "/blog" ? "font-bold text-primary" : "font-medium text-foreground/80"}`}
             >
               {link.label}
             </a>
@@ -77,7 +77,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-primary transition-colors py-2"
+                className={`py-2 transition-colors hover:text-primary ${link.href === "/blog" ? "font-bold text-primary" : "text-foreground/80"}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}
