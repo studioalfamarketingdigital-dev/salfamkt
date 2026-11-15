@@ -16,11 +16,12 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { href: "#inicio", label: "Início" },
-    { href: "#servicos", label: "Serviços" },
-    { href: "#resultados", label: "Resultados" },
-    { href: "#sobre", label: "Sobre" },
-    { href: "#contato", label: "Contato" },
+    { href: "/#inicio", label: "Início" },
+    { href: "/#servicos", label: "Serviços" },
+    { href: "/#resultados", label: "Resultados" },
+    { href: "/#sobre", label: "Sobre" },
+    { href: "/blog", label: "Blog" },
+    { href: "/#contato", label: "Contato" },
   ];
 
   return (
