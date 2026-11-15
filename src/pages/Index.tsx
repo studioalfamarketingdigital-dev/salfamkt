@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Process from "@/components/Process";
 import Services from "@/components/Services";
-import Videos from "@/components/Videos";
 import Results from "@/components/Results";
+import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
@@ -57,8 +57,8 @@ const Index = () => (
       <Hero />
       <Process />
       <Services />
-      <Videos />
       <Results />
+      <Testimonials />
       <About />
       <LatestArticles />
       <FAQ />
